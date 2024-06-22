@@ -117,7 +117,7 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 
 /*-- banner --*/
 .banner{
-	background: url(../images/edited\ new\ one.jpeg) no-repeat 0px 0px;
+	background: url(../images/edited\ new\ one.webp) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1184,7 +1184,7 @@ span.glyphicon:hover {
 .contactright1 a:hover{
     color: #ff4f81;
 }
-.contact input[type="submit"] {
+.button-1{
     border: none;
     outline: none;
     color: #fff;
@@ -1299,6 +1299,66 @@ iframe {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
+#name-error{
+	position: absolute;
+	top: 10px;
+	right: 17px;
+	font-size: 14px;
+	color: red;
+}
+#company-error{
+	position: absolute;
+	right: 17px;
+	bottom: 10px;
+	font-size: 14px;
+	color: red;
+}
+#email-error{
+	position: absolute;
+	top: 10px;
+	right: 17px;
+	font-size: 14px;
+	color: red;
+}
+#phone-error{
+	position: absolute;
+	right: 17px;
+	bottom:  10px;
+	font-size: 14px;
+	color: red;
+}
+#message-error{
+	position: absolute;
+	right: 35px;
+	bottom:38% ;
+	font-size: 14px;
+	color: red;
+}
+#submit-error{
+	position: absolute;
+	bottom: 8px;
+	left: 155px;
+	font-size: 14px;
+	color: red;
+
+}
+#submit-error{
+    color: red;
+}
+span i{
+    color: seagreen;
+}
+
+
+
+
+/* form span{
+	position: absolute;
+	bottom: 12px;
+	right: 17px;
+	font-size: 14px;
+	color: red;
+} */
 /*-- //to-top --*/
 
 /* Responsive design */
@@ -1755,7 +1815,7 @@ iframe {
 		margin: 7em 0 4em;
 	}
 	.banner {
-		background: url(/edited.jpeg) no-repeat -182px 0px;
+		background: url(../images/edited.jpeg) no-repeat -182px 0px;
 		background-size: cover;
 		background-position: center;
 	}
@@ -1828,4 +1888,48 @@ iframe {
 	.w3_banner_info_grid p {
 		margin: 1.5em 0 .5em;
 	}
+	/* #name-error{
+		position: absolute;
+		top: 10px;
+		right: 17px;
+		font-size: 14px;
+		color: red;
+	} */
+	#company-error{
+		position: absolute;
+		right: 17px;
+		bottom: 25px;
+		font-size: 14px;
+		color: red;
+	}
+	/* #email-error{
+		position: absolute;
+		top: 10px;
+		right: 17px;
+		font-size: 14px;
+		color: red;
+	} */
+	#phone-error{
+		position: absolute;
+		right: 17px;
+		bottom:  25px;
+		font-size: 14px;
+		color: red;
+	}
+	#message-error{
+		position: absolute;
+		right: 35px;
+		bottom:28% ;
+		font-size: 14px;
+		color: red;
+	}
+	/* #submit-error{
+		position: absolute;
+		bottom: 8px;
+		left: 155px;
+		font-size: 14px;
+		color: red;
+	
+	} */
+	
 }
