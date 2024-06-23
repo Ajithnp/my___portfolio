@@ -512,7 +512,7 @@ b, strong {
     font-weight: bold;
 	letter-spacing:2px;
 }
-.about-left p {
+c {
     line-height: 28px;
     letter-spacing: .5px;
     font-size: 14px;
@@ -1023,6 +1023,8 @@ i.fa.fa-hourglass-end {
 			height: 100%;
 		}
 
+		
+
 		figure.effect-bubba:hover img {
 			opacity: 0.3;
 		}
@@ -1303,42 +1305,42 @@ iframe {
 	position: absolute;
 	top: 10px;
 	right: 17px;
-	font-size: 14px;
+	font-size: 8px;
 	color: red;
 }
 #company-error{
 	position: absolute;
 	right: 17px;
 	bottom: 10px;
-	font-size: 14px;
+	font-size: 8px;
 	color: red;
 }
 #email-error{
 	position: absolute;
 	top: 10px;
 	right: 17px;
-	font-size: 14px;
+	font-size: 8px;
 	color: red;
 }
 #phone-error{
 	position: absolute;
 	right: 17px;
 	bottom:  10px;
-	font-size: 14px;
+	font-size: 8px;
 	color: red;
 }
 #message-error{
 	position: absolute;
 	right: 35px;
 	bottom:38% ;
-	font-size: 14px;
+	font-size: 8px;
 	color: red;
 }
 #submit-error{
 	position: absolute;
 	bottom: 8px;
 	left: 155px;
-	font-size: 14px;
+	font-size: 8px;
 	color: red;
 
 }
@@ -1352,14 +1354,6 @@ span i{
 
 
 
-/* form span{
-	position: absolute;
-	bottom: 12px;
-	right: 17px;
-	font-size: 14px;
-	color: red;
-} */
-/*-- //to-top --*/
 
 /* Responsive design */
 @media screen and (max-width: 1920px){
@@ -1815,7 +1809,7 @@ span i{
 		margin: 7em 0 4em;
 	}
 	.banner {
-		background: url(../images/edited.jpeg) no-repeat -182px 0px;
+		background: url(../images/edited.webp) no-repeat -182px 0px;
 		background-size: cover;
 		background-position: center;
 	}
@@ -1888,13 +1882,7 @@ span i{
 	.w3_banner_info_grid p {
 		margin: 1.5em 0 .5em;
 	}
-	/* #name-error{
-		position: absolute;
-		top: 10px;
-		right: 17px;
-		font-size: 14px;
-		color: red;
-	} */
+	
 	#company-error{
 		position: absolute;
 		right: 17px;
@@ -1902,13 +1890,7 @@ span i{
 		font-size: 14px;
 		color: red;
 	}
-	/* #email-error{
-		position: absolute;
-		top: 10px;
-		right: 17px;
-		font-size: 14px;
-		color: red;
-	} */
+	
 	#phone-error{
 		position: absolute;
 		right: 17px;
@@ -1923,13 +1905,7 @@ span i{
 		font-size: 14px;
 		color: red;
 	}
-	/* #submit-error{
-		position: absolute;
-		bottom: 8px;
-		left: 155px;
-		font-size: 14px;
-		color: red;
-	
-	} */
-	
+	.about-left p{
+		color: black;
+	}
 }
