@@ -1887,7 +1887,7 @@ span i{
 		position: absolute;
 		right: 17px;
 		bottom: 25px;
-		font-size: 14px;
+		font-size: 8px;
 		color: red;
 	}
 	
@@ -1895,14 +1895,14 @@ span i{
 		position: absolute;
 		right: 17px;
 		bottom:  25px;
-		font-size: 14px;
+		font-size: 8px;
 		color: red;
 	}
 	#message-error{
 		position: absolute;
 		right: 35px;
 		bottom:28% ;
-		font-size: 14px;
+		font-size: 8px;
 		color: red;
 	}
 	.about-left p{
